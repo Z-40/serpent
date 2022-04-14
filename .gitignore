@@ -1,0 +1,8 @@
+# VScode
+.vscode 
+
+# Pycharm, IntelliJ, etc.
+.idea
+
+# Python virtual environment
+env
