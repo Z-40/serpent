@@ -1,9 +1,3 @@
-"""https://en.wikipedia.org/wiki/URL
-https://en.wikipedia.org/wiki/Query_string
-https://en.wikipedia.org/wiki/URI_fragment
-https://en.wikipedia.org/wiki/Percent-encoding"""
-
-
 from typing import Callable
 from typing import Iterable
 
@@ -126,10 +120,3 @@ class Rule:
     @method.setter
     def method(self, methods):
         self._methods = methods
-
-
-
-if __name__ == "__main__":
-    authority = Authority(host_name="example.com", port_number="80", userinfo="")
-    my_rule = Rule(sch="http", auth=authority, path="/Z_40", methods="GET", end_point=None)
-    print(my_rule.rule)
